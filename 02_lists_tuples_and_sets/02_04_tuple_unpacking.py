@@ -14,3 +14,18 @@ fourth = tuple_var[3]
 first, fourth = fourth, first
 
 print(first, fourth)
+
+# Feedback:
+
+# Tuple unpacking can be done in a single line.
+# Use descriptive variable names for clarity.
+
+# Suggested Code:
+
+# my_tuple = ("name", "age", "var", "other")
+
+# first, second, third, fourth = my_tuple
+
+# first, fourth = fourth, first
+
+# print(first, fourth)

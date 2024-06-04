@@ -26,3 +26,24 @@ other_tuple = (
 )
 
 result_two_tuples = new_tuple + other_tuple
+
+# Feedback:
+
+# The code is correct. It is good practice to avoid modifying tuples as they are immutable.
+# You should print result_two_tuples to see the result of concatenation.
+#
+#  Suggested Code:
+# my_tuple = (
+#     "here is a story",
+#     3,
+#     2.5,
+#     ["first", "second"],
+#     {"element": "book", "pages": 524}
+# )
+# print(my_tuple[1], my_tuple[4])
+
+# # my_tuple[2] = 5.8  # Uncommenting this will raise a TypeError
+
+# additional_tuple = ("hello", "world", 2.5)
+# combined_tuple = my_tuple + additional_tuple
+# print(combined_tuple)
