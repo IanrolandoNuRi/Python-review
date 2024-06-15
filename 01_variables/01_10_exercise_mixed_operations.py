@@ -21,6 +21,6 @@ print(quotient_and_minus)
 remainder_and_plus = a % b + c
 print(remainder_and_plus)
 
-# a % b + c
+# a ** b
 a_pow_b = a ** b
 print(a_pow_b)
